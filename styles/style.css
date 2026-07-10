@@ -124,3 +124,81 @@ font-size: 20px;
 .speaker-text p{
     color: #666;
 }
+.pricing-card{
+    width: 100%;
+    margin: 100px auto;
+    text-align: center;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.pricing-card h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.pricing-card p{
+    color: #777;
+    margin-bottom: 50px;
+}
+.p-card{
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 35px;
+    background: white;
+
+}
+.p-card h4{
+    color: #777;
+    margin-bottom: 15px;
+
+}
+.p-card h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+
+}
+.p-card p {
+    color: #777;
+    margin-bottom: 25px;
+}
+.p-card ul{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.p-card ul li {
+    margin: 12px o;
+    color: #444;
+}
+.p-card a{
+    display: block;
+    text-decoration: none;
+    background: #2962ff;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+.card-btn{
+     display: inline-block;
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #2962ff;
+    border: none;
+    width: 100%;
+}
+.p-card ul li {
+    margin-bottom: 12px;
+}
+.p-card.active{
+    background: #0f172a;
+    color: white;
+}
